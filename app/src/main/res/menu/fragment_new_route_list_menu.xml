@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_route_as_map"
+        android:scaleType="center"
+        android:icon="@drawable/ic_action_map_dark"
+        app:showAsAction="always"
+        android:title="Ver como mapa" />
+</menu>

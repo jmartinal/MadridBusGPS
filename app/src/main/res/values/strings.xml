@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Madrid Bus GPS</string>
+    <string name="mapboxMapID">jmartinal.o4bc6n6m</string>
+    <string name="mapboxAccessToken">sk.eyJ1Ijoiam1hcnRpbmFsIiwiYSI6IjA4ZDI1NTQ2NmM4Njk0NGVmYTk1ZmFhYzg0ZDYyZjY1In0.J7kFaVjPYnu7pXUvRnIFUQ</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Navigation Menu Sections-->
+    <string name="section1">Inicio</string>
+    <string name="section2">Nueva ruta</string>
+    <string name="section2_1">Mapa de la ruta</string>
+    <string name="section2_2">Información de la ruta</string>
+    <string name="section3">Itinerarios</string>
+    <string name="section4">Horarios</string>
+    <string name="section5">Actualizar líneas</string>
+    <string name="section6">Acerca de...</string>
+    <string name="section7">Salir</string>
+
+    <string name="operation_error_message">Se ha detectado un error y no se ha podido realizar la operación.</string>
+
+    <!--Fragment Home-->
+    <string name="loading_file_title">Obteniendo información</string>
+    <string name="loading_file_error_title">Error en el fichero</string>
+    <string name="loading_file_error_message">Se ha detectado un error en la información de la red de autobuses.  Por favor, reinicie la aplicación o actualice los datos de la red de autobuses.</string>
+
+    <!--Fragment New Route-->
+    <string name="route_how_to_label">Funcionamiento:</string>
+    <string name="route_how_to">1. Escriba una dirección y seleccione de la lista desplegable aquélla que más se adecúe a sus necesidades.\nPuede utilizar el botón "Usar ubicación actual" para establecer como origen la posición GPS actual del dispositivo.\n2. Cuando haya seleccionado ambas direcciones, pulse el botón "Buscar ruta" para obtener la ruta deseada.</string>
+    <string name="route_from">Origen:</string>
+    <string name="route_to">Destino:</string>
+    <string name="route_options">Opciones:</string>
+    <string name="route_find_gps">Usar ubicación actual</string>
+    <string name="route_new">Buscar ruta</string>
+    <string name="route_address_example">Ejemplo: Paseo de la castellana</string>
+    <string name="route_error_title">Error al calcular la ruta</string>
+    <string name="route_error_message">Se ha detectado un error en la ruta.\nPor favor, vuelva a intentarlo de nuevo.\nSi el error persiste, trate de buscar una ruta alternativa usando localizaciones de origen o destino cercanas.</string>
+    <string name="loading_route_message_title">Calculando ruta</string>
+    <string name="loading_route_message_text">Por favor, espere mientras se procesan los datos.</string>
+    <string name="new_route_shortest">Ruta más corta</string>
+    <string name="new_route_less_stops">Ruta con menos paradas</string>
+    <string name="new_route_less_transfers">Ruta con menos transbordos</string>
+    <string name="new_route_night_lines">Sólo líneas nocturnas</string>
+    <!--Fragment: New Route Map/List-->
+    <string name="from">Origen</string>
+    <string name="to">Destino</string>
+    <string name="action_map">Ver mapa</string>
+    <string name="action_list">Ver lista</string>
+    <string name="route_start">Origen: %1$s</string>
+    <string name="route_end">Destino: %1$s</string>
+    <string name="bus_route_first_stop">En la parada %1$s, tome el autobús de la línea %2$s.</string>
+    <string name="bus_route_transfer_stop">En la parada %1$s realice un transbordo y tome el autobús de la línea %2$s.</string>
+    <string name="bus_route_last_stop">En la parada %1$s baje del autobús y continúe a pie.</string>
+
+    <!--Fragment: Bus Routes-->
+    <string name="bus_route_label">Línea de autobús:</string>
+    <string name="bus_route_example">Ejemplo: %1$s</string>
+    <string name="bus_route_show_departure">Mostrar ruta de ida</string>
+    <string name="bus_route_show_detour">Mostrar ruta de vuelta</string>
+    <string name="bus_route_show_stops">Mostrar paradas</string>
+    <string name="bus_route_select_line">Seleccione una línea</string>
+    <string name="bus_route_nothing_to_show">Seleccione las opciones que desea consultar</string>
+
+    <!-- Fragment: Bus Schedules -->
+    <string name="bus_schedule_line_label">Línea</string>
+    <string name="bus_schedule_date_label">Fecha</string>
+    <string name="bus_schedule_search">Ver horario</string>
+    <string name="bus_schedule_loading_title">Buscando</string>
+    <string name="bus_schedule_error_title">Error</string>
+    <string name="bus_schedule_select_line">Seleccione una línea de la lista desplegable</string>
+    <string name="bus_schedule_frequency">Frecuencia</string>
+
+    <!--Fragment: Refresh Bus Lines-->
+    <string name="loading_bus_message_title">Creando red de autobuses</string>
+    <string name="loading_bus_message_lines">Obteniendo información de las líneas de autobús</string>
+    <string name="loading_bus_message_stops">Obteniendo información de las paradas de autobús</string>
+    <string name="loading_bus_message_network">Generando estructura de autobús</string>
+    <string name="loading_bus_message_file">Guardando información en el dispositivo</string>
+    <string name="loading_bus_error_title">Error en la descarga</string>
+    <string name="loading_bus_error_message">Se ha producido un error en la descarga. Por favor, reinicie la aplicación para descargar los datos de la red de autobuses.</string>
+
+    <string name="last_refresh_date">Última actualización:</string>
+    <string name="refresh">Actualizar</string>
+
+    <!-- Fragment: About App -->
+    <string name="about_app_text1">© Colaboradores de OpenStreetMap.\nTodos los datos están disponibles bajo la licencia Open Database License (ODbL) mientras que la cartografía posee licencia CC-BY-SA.</string>
+    <string name="about_app_text2">Todos los logos e imágenes son propiedad de sus respectivos autores.\nEl logo de la EMT de Madrid es propiedad de Empresa Municipal de Transportes de Madrid, S.A.\n© Copyright 2013 EMT madrid. Reservados todos los derechos.</string>
+
+    <!--Others-->
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+
+</resources>

@@ -1,0 +1,176 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jmartinal.madridbusgps.BusSheduleTableFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- WORKABLE DAYS -->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:stretchColumns="0,1">
+
+            <TextView
+                android:id="@+id/workableTitle"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="@android:color/primary_text_dark" />
+
+            <TableRow android:background="@color/colorAccent">
+                <TextView
+                    android:id="@+id/workableHeaderACaption"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="@android:color/primary_text_dark" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/workableHeaderA"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow android:background="@color/colorAccent">
+                <TextView
+                    android:id="@+id/workableHeaderBCaption"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="@android:color/primary_text_dark" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/workableHeaderB"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <!-- SATURDAYS -->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:stretchColumns="0,1">
+
+            <TextView
+                android:id="@+id/saturdayTitle"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="@android:color/primary_text_dark" />
+
+            <TableRow android:background="@color/colorAccent">
+                <TextView
+                    android:id="@+id/saturdayHeaderACaption"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="@android:color/primary_text_dark" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/saturdayHeaderA"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow android:background="@color/colorAccent">
+                <TextView
+                    android:id="@+id/saturdayHeaderBCaption"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="@android:color/primary_text_dark" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/saturdayHeaderB"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <!-- FESTIVE DAYS -->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:stretchColumns="0,1">
+
+            <TextView
+                android:id="@+id/festiveTitle"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="@android:color/primary_text_dark" />
+
+            <TableRow android:background="@color/colorAccent">
+
+                <TextView
+                    android:id="@+id/festiveHeaderACaption"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="@android:color/primary_text_dark" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/festiveHeaderA"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow android:background="@color/colorAccent">
+                <TextView
+                    android:id="@+id/festiveHeaderBCaption"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="@android:color/primary_text_dark" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/festiveHeaderB"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.jmartinal.madridbusgps.Fragments.BusRoutesFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/bus_route_label"
+        android:id="@+id/busRouteLabel" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/busRouteAutocomplete"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:inputType="textCapSentences" />
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bus_route_show_departure"
+        android:checked="true"
+        android:id="@+id/departureCheckBox" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bus_route_show_detour"
+        android:checked="true"
+        android:id="@+id/detourCheckBox" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bus_route_show_stops"
+        android:checked="true"
+        android:id="@+id/stopsCheckBox" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/busRouteMapFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:scaleType="center"
+        android:src="@drawable/ic_action_search_dark"
+        android:text="@string/route_new"/>
+
+</LinearLayout>
